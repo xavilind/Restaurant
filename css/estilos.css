@@ -209,6 +209,10 @@ header .textos h3 {
     width: 100%;
     overflow: hidden;
 }
+.main .mapa iframe {
+    width: 100%;
+    max-height: 600px;
+}
 footer {
     background: #000;
 }
@@ -217,7 +221,7 @@ footer .copyright {
     padding: 15px 0;
     color: #fff;
 }
-@media screen and (max-width: 809px){
+@media screen and (max-width: 800px){
     header .contenedor {
         position: static;
         height: auto;
@@ -243,11 +247,18 @@ footer .copyright {
         width: 100%;
         position: relative;
     }
+
     .main .acerca-de article {
         position: relative;
         width: 100%;
         top: -50px;
         transform: translate(0px, 0);
+    }
+    .main .menu {
+        padding-top: 300px;
+    }
+    .main .menu article {
+        width: 100%;
     }
     .main .galeria .foto {
         width: 50%;
